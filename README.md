@@ -10,4 +10,4 @@ https://socket.io/
 
 https://expressjs.com/
 
-Basic code adapted from: https://www.youtube.com/watch?v=vQjiN8Qgs3c&list=PL4cUxeGkcC9i4V-_ZVwLmOusj8YAUhj_9
+Basic code adapted from: https://github.com/iamshaunjp/websockets-playlist
