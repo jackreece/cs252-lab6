@@ -17,7 +17,7 @@
       <input id="handle" type="text" placeholder="Handle"/>
       <br/>
       <select id="select-color">
-        <option>Select a color</option>
+        <option value="black">Select a color</option>
         <option value="red">Red</option>
         <option value="orange">Orange</option>
         <option value="yellow">Yellow</option>
@@ -26,9 +26,21 @@
         <option value="purple">Purple</option>
       </select>
       <br/>
-      <input id="message" type="text" placeholder="Message"/>
-      <button id="send">Send</button>
+      <select id="select-icon">
+        <option value="">Select a profile icon</option>
+        <option value="Basketball.png">Basketball</option>
+        <option value="Gingerbread_Man.png">Gingerbread Man</option>
+        <option value="Penguin.png">Penguin</option>
+        <option value="Sunflower.png">Sunflower</option>
+      </select>
+      <input id="message" type="text" placeholder="Message"/><br>
+      <button id="send">Send</button><br>
+      <br><br>
+      <input id="password" type="password" placeholder="Profile password (optional)"/><br>
+      <button id="save-button">Save Profile</button><br>
+      <button id="load-button">Load Profile</button><br>
+      <span id="status-message"></span>
     </div>
-    <script src = "/chat.js"></script>
+    <script src="/chat.js"></script>
   </body>
 </html>

@@ -11,6 +11,7 @@
   "dependencies": {
     "express": "^4.16.2",
     "mysql": "^2.15.0",
+    "node": "^9.2.0",
     "nvm": "0.0.4",
     "socket.io": "^2.0.4"
   },
